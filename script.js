@@ -11,9 +11,9 @@ document.addEventListener('DOMContentLoaded', function () {
             <div class="mdc-tab-scroller__scroll-area">
                 <div class="mdc-tab-scroller__scroll-content">
 
-                <button id="programsbutton" class="mdc-tab mdc-tab--active" role="tab" aria-selected="true" tabindex="0" onClick="location.href='index.html'">
+                <button class="mdc-tab mdc-tab--active" role="tab" aria-selected="true" tabindex="0" onClick="location.href='index.html'">
                 <span class="mdc-tab__content">
-                    <span class="mdc-tab__text-label"><img tabindex="0" style="width:2rem" src="logosquare2.png" aria-label="coat button"></span>
+                    <span class="mdc-tab__text-label"><img tabindex="0" style="width:2rem" src="images/lilac7.png" aria-label="coat button"></span>
                 </span>
                 <span id="programsindicator" class="mdc-tab-indicator mdc-tab-indicator--active">
                     <span class="mdc-tab-indicator__content mdc-tab-indicator__content--underline"></span>
@@ -21,9 +21,9 @@ document.addEventListener('DOMContentLoaded', function () {
                 <span class="mdc-tab__ripple"></span>
                 </button>
 
-                <button id="programsbutton" class="mdc-tab mdc-tab--active" role="tab" aria-selected="true" tabindex="0" onClick="location.href='services.html'">
+                <button  class="mdc-tab mdc-tab--active" role="tab" aria-selected="true" tabindex="0" onClick="location.href='services.html'">
                 <span class="mdc-tab__content">
-                    <span class="mdc-tab__text-label">The Crimes</span>
+                    <span class="mdc-tab__text-label">Services</span>
                 </span>
                 <span id="programsindicator" class="mdc-tab-indicator mdc-tab-indicator--active">
                     <span class="mdc-tab-indicator__content mdc-tab-indicator__content--underline"></span>
@@ -31,9 +31,9 @@ document.addEventListener('DOMContentLoaded', function () {
                 <span class="mdc-tab__ripple"></span>
                 </button>
 
-                <button id="programsbutton" class="mdc-tab mdc-tab--active" role="tab" aria-selected="true" tabindex="0" onClick="location.href='stylists.html'">
+                <button class="mdc-tab mdc-tab--active" role="tab" aria-selected="true" tabindex="0" onClick="location.href='stylists.html'">
                     <span class="mdc-tab__content">
-                        <span class="mdc-tab__text-label">The Guilty</span>
+                        <span class="mdc-tab__text-label">Stylists</span>
                     </span>
                     <span id="programsindicator" class="mdc-tab-indicator mdc-tab-indicator--active">
                         <span class="mdc-tab-indicator__content mdc-tab-indicator__content--underline"></span>
@@ -41,15 +41,99 @@ document.addEventListener('DOMContentLoaded', function () {
                     <span class="mdc-tab__ripple"></span>
                 </button>
 
-            <button id="valuesbutton" class="mdc-tab mdc-tab--active" role="tab" aria-selected="true" tabindex="0" onClick="location.href='location.html'">
+            <button  class="mdc-tab mdc-tab--active" role="tab" aria-selected="true" tabindex="0" onClick="location.href='location.html'">
                 <span class="mdc-tab__content">
-                    <span class="mdc-tab__text-label">The Scene</span>
+                    <span class="mdc-tab__text-label">The Place</span>
                 </span>
                 <span id="valuesindicator" class="mdc-tab-indicator mdc-tab-indicator--active">
                     <span class="mdc-tab-indicator__content mdc-tab-indicator__content--underline"></span>
                 </span>
                 <span class="mdc-tab__ripple"></span>
             </button>
+
+            <button i class="mdc-tab mdc-tab--active" role="tab" aria-selected="true" tabindex="0" onClick="location.href='location.html'">
+            <span class="mdc-tab__content">
+                <span class="mdc-tab__text-label">    
+                <a href="https://www.facebook.com/AlibiSalon919/">
+                <img src="images/facebook.png" alt="Facebook" />
+                </a>
+            </span>
+            </span>
+            <span  class="mdc-tab-indicator mdc-tab-indicator--active">
+                <span class="mdc-tab-indicator__content mdc-tab-indicator__content--underline"></span>
+            </span>
+            <span class="mdc-tab__ripple"></span>
+            </button>
+
+            <button  class="mdc-tab mdc-tab--active" role="tab" aria-selected="true" tabindex="0" onClick="location.href='location.html'">
+            <span class="mdc-tab__content">
+                <span class="mdc-tab__text-label">    
+                <a href="https://www.instagram.com/alibisalon919/">
+                <img src="images/instagram.png" alt="Instagram" />
+                </a>
+            </span>
+            </span>
+            <span  class="mdc-tab-indicator mdc-tab-indicator--active">
+                <span class="mdc-tab-indicator__content mdc-tab-indicator__content--underline"></span>
+            </span>
+            <span class="mdc-tab__ripple"></span>
+            </button>
+
+            <button  class="mdc-tab mdc-tab--active" role="tab" aria-selected="true" tabindex="0" onClick="location.href='location.html'">
+            <span class="mdc-tab__content">
+                <span class="mdc-tab__text-label">Yelp
+               
+            </span>
+            </span>
+            <span  class="mdc-tab-indicator mdc-tab-indicator--active">
+                <span class="mdc-tab-indicator__content mdc-tab-indicator__content--underline"></span>
+            </span>
+            <span class="mdc-tab__ripple"></span>
+            </button>
+
+            <button  class="mdc-tab mdc-tab--active" role="tab" aria-selected="true" tabindex="0" onClick="location.href='location.html'">
+            <span class="mdc-tab__content">
+                <span class="mdc-tab__text-label">    
+                <a href="mailto:alibisalon919@gmail.com?subject=Message from website" target='blank'">
+                <img src="images/mail.png" alt="Mail">
+                </a>
+            </span>
+            </span>
+            <span class="mdc-tab-indicator mdc-tab-indicator--active">
+                <span class="mdc-tab-indicator__content mdc-tab-indicator__content--underline"></span>
+            </span>
+            <span class="mdc-tab__ripple"></span>
+            </button>
+
+            <button class="mdc-tab mdc-tab--active" role="tab" aria-selected="true" tabindex="0">
+            <span class="mdc-tab__content">
+                <span class="mdc-tab__text-label">    
+                    <a href="https://www.google.com/maps/place/303+N+Boylan+Ave,+Raleigh,+NC+27603">
+                    <img src="images/globe.png" alt="Directions">
+                    </a>
+                </span>
+                </span>
+            <span id="valuesindicator" class="mdc-tab-indicator mdc-tab-indicator--active">
+                <span class="mdc-tab-indicator__content mdc-tab-indicator__content--underline"></span>
+            </span>
+            <span class="mdc-tab__ripple"></span>
+            </button>
+
+            <button  class="mdc-tab mdc-tab--active" role="tab" aria-selected="true" tabindex="0">
+            <span class="mdc-tab__content">
+                <span class="mdc-tab__text-label">    
+                    <a href="tel:9197773603">
+                    <img src="images/phone.png" alt="Phone" />
+                    </a>
+                </span>
+                </span>
+            <span class="mdc-tab-indicator mdc-tab-indicator--active">
+                <span class="mdc-tab-indicator__content mdc-tab-indicator__content--underline"></span>
+            </span>
+            <span class="mdc-tab__ripple"></span>
+            </button>
+
+            
 
 
                </div>
@@ -66,41 +150,8 @@ document.addEventListener('DOMContentLoaded', function () {
 
     footer.innerHTML = 
 
-    `<div class="footer">
-
-    <div class="spacemaker">
-
-    <span>
-    <a class="mdc-typography--body1" href="scrapbook.html" target='blank'>
-        <img src="images/social-media-icons/map.png" alt="sitemap" />
-    </a>
-    </span>
-
-    <span>
-    <a class="mdc-typography--body1" href="https://www.meetup.com/DataScientistaSociety/" target='blank'>
-        <img src="images/social-media-icons/meetup.png" alt="Meetup" />
-    </a>
-    </span>
-
-    <span>
-    <a  class="mdc-typography--body1" href="https://www.linkedin.com/company/data-scientista-society" target='blank'>
-        <img src="images/social-media-icons/linkedin.png" alt="Linkedin" />
-    </a>
-    </span>
-
-    <span>
-    <a  class="mdc-typography--body1" href="https://www.linkedin.com/groups/8496042/" target='blank'>
-        <img src="images/social-media-icons/groups.png" alt="Linkedin groups" />
-    </a>
-    </span>
-
-    <span>
-    <a class="mdc-typography--body1" href="mailto:datascientistasociety@gmail.com?subject=Message from website" target='blank'>
-        <img src="images/social-media-icons/email.png" alt="Mail" />
-    </a>
-    </span>
-
-    </div>
+    `<div class="background2">
+    <h2 class="mdc-typography--headline2">ALIBI + LILAC</h2>
     </div>`
 
 

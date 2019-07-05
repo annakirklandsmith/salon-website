@@ -7,22 +7,23 @@
 
 }
 
-.footer{
-    background-color: #616161;
-    padding: 1rem 1rem 1rem 1rem;
-    color: white;
-
-}
 
 .mdc-tab{
-    background-color: #424242 !important; 
+    background-color: #9E9E9E !important; 
     
 }
 
 .background{
     background-image: url(images/brickwall2.jpeg);
-    background-size: cover;
-    background-repeat: no-repeat;
+    background-size: contain;
+    /*background-repeat: no-repeat; */
+}
+
+.background2 {
+    background-image: url(images/lilac2.png);
+    background-size: contain;
+    background-repeat: repeat-x;
+
 }
 
 .demo-card {
@@ -40,16 +41,7 @@
     display: in-line;
 }
 
-.midwaystyle{
-    background: linear-gradient(rgba(69,39,160, 0.3),rgba(69,39,160, 0.3)),
-    no-repeat center/cover url(images/landingimage.png); padding: 5vw; 
-    color: white;
-    font-weight: bold;
-    text-align: center;
-    margin: 0rem 0rem 0rem 0rem ;
-    font-size: calc(32px + (20 - 10) * ((100vw - 300px) / (1600 - 300)));
 
-}
 
 .mdc-card {
     background-color: #212121;
@@ -59,15 +51,25 @@
     margin: 1rem 1rem 1rem 1rem ;
     color: #EEEEEE;
     text-align: center;
+
+}
+
+.mdc-typography--headline3 {
+    margin: 1rem 1rem 1rem 1rem ;
+    color: #EEEEEE;
+    font-family: 'Rye';
+    text-align: center;
 }
 
 .mdc-typography--headline4 {
     margin: 1rem 1rem 1rem 1rem ;
     color: #EEEEEE;
     font-family: 'Rye';
+    text-align: center;
 }
 .mdc-typography--headline5 {
     margin: 1rem 1rem 1rem 1rem ;
+    font-family: 'Rye';
     color: #E0E0E0;
 }
 .mdc-typography--headline6 {
@@ -78,32 +80,84 @@
 }
 
 .mdc-tab__text-label{
-    font-family: 'Tahoma';
-    color: #E0E0E0;
+    font-family: 'Rye';
+    color: #EEEEEE !important;
     
 }
 
 .mdc-typography--body1 {
     margin: 1rem 1rem 1rem 1rem ;
     color: #E0E0E0;
-    font-family: Tahoma;
+
     
 }
 
 .mdc-typography--body2 {
     margin: 1rem 1rem 1rem 1rem;
     color: #E0E0E0;
-    font-family: Tahoma;
 }
 
 .mdc-typography--overline {
-    margin: 5rem 5rem 5rem 5rem;
-    text-decoration: none;
+    color: #E0E0E0;
+    text-align: center;
+    margin: 1rem;
 }
 
 .italic {
     font-style: italic;
 }
+
+.spacemaker {
+    width: 100%;
+    margin: 1rem 0rem 1rem 0rem ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.spacemakeritem {
+    width: 50%;
+}
+
+
+.aboutimage{
+    /* display: inline-block; */
+    /* float: left;
+    margin: 20px; */
+    width: 100%;
+    margin: 1rem 0rem 0rem 0rem;
+    }
+
+.my-mdc-list-item__graphic{
+    width: 4rem;
+    margin: 3rem;
+    vertical-align: middle;
+}
+
+
+.mdc-list-item__primary-text{
+    font-family: 'Rye';
+    color: #EEEEEE !important;
+
+}
+
+.mdc-list-item__secondary-text{
+    color: #EEEEEE !important;
+
+}
+
+.mdc-list-item{
+    padding: .25rem;
+    margin: 3rem 0rem 3rem 0rem ;
+    text-decoration: none !important;
+}
+
+
+
+
+
+
+
 
 
 .my-image-list{
@@ -140,11 +194,7 @@
     
 }
 
-.mdc-list-item{
-    padding: .25rem;
-    margin: 0rem 0rem 0rem 3rem ;
-    text-decoration: none !important;
-}
+
 
 
 .list-adjust {
@@ -157,15 +207,5 @@
 
 
 
-.spacemaker {
-    width: 100%;
-    margin: 1rem 0rem 1rem 0rem ;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
 
-.spacemakeritem {
-    width: 5em;
-}
 
