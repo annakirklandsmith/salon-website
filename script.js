@@ -43,7 +43,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
             <button  class="mdc-tab mdc-tab--active" role="tab" aria-selected="true" tabindex="0" onClick="location.href='location.html'">
                 <span class="mdc-tab__content">
-                    <span class="mdc-tab__text-label">The Place</span>
+                    <span class="mdc-tab__text-label">The Scene</span>
                 </span>
                 <span id="valuesindicator" class="mdc-tab-indicator mdc-tab-indicator--active">
                     <span class="mdc-tab-indicator__content mdc-tab-indicator__content--underline"></span>
@@ -151,7 +151,7 @@ document.addEventListener('DOMContentLoaded', function () {
     footer.innerHTML = 
 
     `<div class="background2">
-    <h2 class="mdc-typography--headline2">ALIBI + LILAC</h2>
+    <h2 class="mdc-typography--headline2">+</h2>
     </div>`
 
 

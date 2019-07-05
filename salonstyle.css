@@ -27,7 +27,7 @@
 }
 
 .demo-card {
-    margin: 20pt;
+    margin: 20pt; 
     z-index: 10;
     box-shadow: #ffffff;
     
@@ -116,7 +116,12 @@
 }
 
 .spacemakeritem {
-    width: 50%;
+    width: 10%
+}
+
+.spacemakeritem2 {
+    width: 20em;
+
 }
 
 
@@ -130,7 +135,7 @@
 
 .my-mdc-list-item__graphic{
     width: 4rem;
-    margin: 3rem;
+    margin: 1rem;
     vertical-align: middle;
 }
 
@@ -147,11 +152,14 @@
 }
 
 .mdc-list-item{
-    padding: .25rem;
-    margin: 3rem 0rem 3rem 0rem ;
+    padding: .5rem;
+    margin: 2rem 0rem 2rem 0rem ;
     text-decoration: none !important;
 }
 
+.c{
+    text-align: center;
+}
 
 
 
