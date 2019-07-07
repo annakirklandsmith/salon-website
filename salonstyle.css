@@ -168,52 +168,6 @@
 
 
 
-.my-image-list{
-    list-style-type: none;
-    display: flex;
-    flex-flow: row wrap;
-}
-
-.mdc-image-list__item{
-    margin: 10px;
-    border-radius: 8px;
-    min-width: 200pt;
-}
-
-.mdc-image-list__image{
-    border-radius: 8px; 
-}  
-
-.mdc-image-list__label{
-    border-radius: 0 0 8px 8px;
-    margin: 0rem 0rem 0rem 0rem;
-    white-space: normal;
-    overflow: visible;
-    font-weight: bold;
-    color: #41271D; 
-}
-
-.adjust {
-    position: none;
-    border-radius: 0 0 8px 8px!important; 
-    padding: 10px !important;
-    height: auto !important;
-    /* background: linear-gradient(rgba(96, 125, 139, 0.3),rgba(96, 125, 125, 0.3)) !important; */
-    
-}
-
-
-
-
-.list-adjust {
-    font-size: 90%;
-    text-decoration: none !important;
-    padding: 0rem 0rem 0rem .5rem ;
-    color: #5F422F;
-}
-
-
-
 
 
 
