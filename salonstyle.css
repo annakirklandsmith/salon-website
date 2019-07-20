@@ -9,21 +9,50 @@
 
 
 .mdc-tab{
-    background-color: #9E9E9E !important; 
+    background-color: #757575 !important; 
     
 }
 
+.mdc-tab-bar2{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+ 
+    
+}
+
+.mdc-tab2{
+    background-color:#9E9E9E !important; 
+
+}
+
+
+
+.navbar {
+    background-color: #333;
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+
 .background{
-    background-image: url(images/brickwall2.jpeg);
-    background-size: contain;
+    background-image: url(images/givenwall.jpeg);
+    background-size: cover;
     /*background-repeat: no-repeat; */
 }
 
 .background2 {
-    background-image: url(images/lilac2.png);
+    background-image: url(images/tile1.png);
     background-size: contain;
     background-repeat: repeat-x;
 
+}
+
+.background3{
+    background-image: url(images/brickwall3w.jpeg);
+    background-size: contain;
+    /*background-repeat: no-repeat; */
 }
 
 .demo-card {
@@ -44,67 +73,63 @@
 
 
 .mdc-card {
-    background-color: #212121;
+    background-color: #424242;
 }
 
-.mdc-typography--headline2 {
+.mdc-typography--headline1 {
     margin: 1rem 1rem 1rem 1rem ;
-    color: #EEEEEE;
+    font-family: 'Rye';
     text-align: center;
 
 }
 
 .mdc-typography--headline3 {
     margin: 1rem 1rem 1rem 1rem ;
-    color: #EEEEEE;
     font-family: 'Rye';
     text-align: center;
 }
 
 .mdc-typography--headline4 {
     margin: 1rem 1rem 1rem 1rem ;
-    color: #EEEEEE;
     font-family: 'Rye';
     text-align: center;
 }
 .mdc-typography--headline5 {
     margin: 1rem 1rem 1rem 1rem ;
     font-family: 'Rye';
-    color: #E0E0E0;
 }
+
 .mdc-typography--headline6 {
     margin: 1rem 1rem 1rem 1rem ;
-    color: #BDBDBD;
     font-family: 'Rye';
     
 }
 
 .mdc-tab__text-label{
-    font-family: 'Rye';
+
     color: #EEEEEE !important;
     
 }
 
 .mdc-typography--body1 {
     margin: 1rem 1rem 1rem 1rem ;
-    color: #E0E0E0;
-
     
 }
 
 .mdc-typography--body2 {
     margin: 1rem 1rem 1rem 1rem;
-    color: #E0E0E0;
 }
 
 .mdc-typography--overline {
-    color: #E0E0E0;
-    text-align: center;
     margin: 1rem;
 }
 
 .italic {
     font-style: italic;
+}
+
+.center {
+    text-align: center;
 }
 
 .spacemaker {
@@ -159,6 +184,14 @@
 
 .c{
     text-align: center;
+}
+
+.w{
+    color: #EEEEEE !important;;
+}
+
+.b{
+    color: #212121 !important;;
 }
 
 
