@@ -74,6 +74,7 @@
 
 .mdc-card {
     background-color: #424242;
+    z-index: 0;
 }
 
 .mdc-typography--headline1 {
@@ -118,6 +119,7 @@
 
 .mdc-typography--body2 {
     margin: 1rem 1rem 1rem 1rem;
+    
 }
 
 .mdc-typography--overline {

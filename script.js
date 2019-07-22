@@ -13,7 +13,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
                 <button class="mdc-tab mdc-tab--active" role="tab" aria-selected="true" tabindex="0" onClick="location.href='index.html'">
                 <span class="mdc-tab__content">
-                    <span class="mdc-tab__text-label"><img tabindex="0" style="width:2rem" src="images/tile2.png" aria-label="coat button"></span>
+                    <span class="mdc-tab__text-label"><img tabindex="0" style="width:2rem" src="images/tile2.png" aria-label="home"></span>
                 </span>
                 <span id="programsindicator" class="mdc-tab-indicator mdc-tab-indicator--active">
                     <span class="mdc-tab-indicator__content mdc-tab-indicator__content--underline"></span>
@@ -43,7 +43,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
             <button  class="mdc-tab mdc-tab--active" role="tab" aria-selected="true" tabindex="0" onClick="location.href='location.html'">
                 <span class="mdc-tab__content">
-                    <span class="mdc-tab__text-label">The Scene</span>
+                    <span class="mdc-tab__text-label">Scene</span>
                 </span>
                 <span id="valuesindicator" class="mdc-tab-indicator mdc-tab-indicator--active">
                     <span class="mdc-tab-indicator__content mdc-tab-indicator__content--underline"></span>
@@ -51,7 +51,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 <span class="mdc-tab__ripple"></span>
             </button>
 
-            <button  class="mdc-tab mdc-tab--active" role="tab" aria-selected="true" tabindex="0">
+            <button  class="mdc-tab mdc-tab--active" role="tab" aria-selected="true" tabindex="0" onClick="location.href='tel:2522897246'">
             <span class="mdc-tab__content">
                 <span class="mdc-tab__text-label">    
                     <a href="tel:9197773603">
